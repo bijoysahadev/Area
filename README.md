@@ -34,12 +34,7 @@ Attention to Detail: Precise implementation of branding, typography, and spacing
 
 
 
-🔧 Installation & Setup
-Clone the repository:
 
-Bash
-git clone https://github.com/bijoysahadev/Area.git
-Navigate to the project folder:
 
 Bash
 cd Area
