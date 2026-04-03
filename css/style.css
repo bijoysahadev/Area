@@ -1,0 +1,699 @@
+/* common css starts here */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+}
+/* common css ends here */
+/* navbar css link starts here */
+nav .nav-item .nav-link {
+    padding: 0px !important;
+    text-decoration: none !important;
+    color: rgba(0, 0, 0,1);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    transition: .5s;
+}
+
+nav .navbar-nav {
+    column-gap: 27px;
+}
+nav .nav-item {
+    position: relative;
+    opacity: 1;
+}
+nav .nav-item::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 1);
+    content: "";
+    width: 0;
+    height: 2px;
+    transition: .5s;
+}
+nav .nav-item:hover::before {
+    width: 100%;
+}
+.navbar-nav:hover .nav-item  {
+    opacity: 0.3;
+}
+.navbar-nav .nav-item:hover 
+{
+    opacity: 1;
+}
+nav .common-button a {
+    padding:14px 31px ;
+    display: inline-block;
+    color: rgba(255, 255, 255,1);
+     font-family: "DM Sans", sans-serif;
+     font-size: 14px;
+     font-weight: 700;
+     background-color: rgba(72, 92, 17,1);
+     border-radius: 1000px;
+     transition: .5s;
+     border: 1px solid transparent;
+
+}
+nav .common-button a:hover {
+    background-color: rgba(223, 236, 198,1);
+    color: rgba(0, 0, 0,1);
+    border: 1px solid rgba(223, 236, 198,1) ;
+}
+/* navbar css ends here */
+/* babnner css starts here */
+/* banner-uper part css ends here */
+.banner-upper {
+    padding-top: 100px;
+}
+.banner-upper h1 {
+      font-family: "Crimson Text", serif;
+      color:rgba(0, 0, 0,1) ;
+      font-size: 160px;
+      font-weight: 400;
+      text-align: center;
+      transform: translateY(-100px);
+}
+/* banner-upper part css ends here */
+.banner {
+    background: url(../Images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+    height: 100vh;
+   
+}
+/* banner css ends here */
+/* image css starts here */
+.image {
+    padding-top: 40px;
+}
+.image h2 {
+    font-size:15px ;
+    font-weight:400 ;
+    font-family: "DM Sans", sans-serif;
+     color: rgba(111, 111, 111,1);
+     text-align: start;
+}
+/* logo css ends here */
+/* code css starts here */
+.code {
+    padding-top: 50px;
+}
+.code p {
+        font-family: "DM Sans", sans-serif;
+        font-size:13px ;
+        font-weight: 500;
+        color: rgba(72, 92, 17,1);
+        text-align: start;
+}
+.code h2 {
+    font-family: "Crimson Text", serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgba(0, 0, 0,1);
+    text-align: start;
+    padding: 50px 0;
+}
+.code h4 {
+    color: rgba(111, 111, 111,1);
+     font-family: "DM Sans", sans-serif;
+     font-size: 15px;
+     font-weight: 400;
+     text-align: start;
+     padding-bottom: 40px;
+
+}
+.card {
+    width: 100% !important;
+    border:  none !important;
+   
+    /* box-shadow: 10px 10px 10px rgba(72, 92, 17,1); */
+    padding: 40px 40px;
+    transition: .5s;
+
+}
+.card:hover {
+    box-shadow: 0px 10px 10px rgba(72, 92, 17,0.70);
+    transform: scale(1.02);
+}
+.card .card-body {
+    padding: 0px !important;
+
+}
+.card .card-img-top {
+    width: 35px !important;
+    text-align: center;
+}
+.card .card-body .card-title {
+     font-family: "Crimson Text", serif;
+     font-size: 18px;
+     font-weight:400;
+     color: rgba(72, 72, 72,1);
+     padding: 25px 0px;
+}
+.card .card-body .card-text {
+     font-family: "DM Sans", sans-serif;
+     font-size: 14px;
+     font-weight:400;
+    color: rgba(111, 111, 111,1);
+    
+}
+.code .code-image {
+    width: 100%;
+    height: 620px;
+    background-color: transparent;
+    border-radius: 30px;
+    padding-top: 60px;
+}
+.code .code-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+/* code css ends here */
+/* faq css starts here */
+.faq {
+    padding-top: 120px;
+}
+/* .faq .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+} */
+.faq .box {
+    width: 590px;
+    height: 711px;
+    background-color: transparent;
+    border-radius: 30px;
+}
+.faq .box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.faq .container h2 {
+     font-family: "Crimson Text", serif;
+     color: rgba(0, 0, 0,1);
+     font-size:60px ;
+     font-weight:400 ;
+     line-height: 90%;
+}
+.faq .container .faq-paragraph {
+     font-family: "DM Sans", sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     list-style: 130%;
+     color: rgba(0, 0, 0,1);
+     width: 510px;
+     padding: 40px 0;
+}
+.faq .container .accordion-button {
+  color: rgba(0, 0, 0,1);
+  font-family: "DM Sans", sans-serif;
+  font-size:15px ;
+  font-weight:400 ;  
+  padding: 20px 45px !important; 
+  line-height: 140% !important;
+ 
+}
+.faq .container .accordion-button span {
+      font-family: "DM Sans", sans-serif;
+      font-size:15px ;
+      font-weight:400 ;
+      color: rgba(111, 111, 111,1);
+      padding-right: 30px;
+}
+.faq .accordion-body {
+    padding: 0 90px;
+}
+.faq .accordion-item {
+    border: 0px !important;
+}
+/* .accordion-button:not(.collapsed) {
+    border-bottom: 1px solid red !important;
+}
+.accordion-button:focus {
+    box-shadow: 0px 0px 0px transparent !important;
+} */
+
+.accordion-button:focus {
+     /* border-bottom: 1px solid red !important; */
+   
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+}
+.accordion-button.collapsed {
+    border-bottom: 1px solid black;
+}
+.accordion-button:not(.collapsed) {
+    color: transparent;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 0px transparent;
+}
+.accordion-button:focus {
+   
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0px 0px 0px transparent !important;
+}
+/* .accordion-button.collapsed {
+    border-bottom: 1px solid red;
+} */
+.accordion-collapse.collapse  {
+    border-bottom: 1px solid rgba(233, 233, 233,1);
+}
+/* .accordion-button:focus {
+    
+    border-bottom: 1px solid green !important;
+  
+    
+   
+} */
+
+
+.accordion-button {
+    border-bottom: none !important;
+}
+.accordion-button.collapsed {
+  border-bottom: 1px solid rgba(233, 233, 233,1) !important;
+}
+/*  */
+.faq .faq-button{
+    padding-top: 40px;
+}
+.faq .faq-button a {
+    padding: 14px 22px;
+    display: inline-block;
+    background-color: rgba(72, 92, 17,1);
+    border: 1px solid transparent;
+    transition: .5s;
+    color: rgba(0, 0, 0,1);
+    font-family: "DM Sans", sans-serif;
+    font-size:14px ;
+    font-weight: 700;
+    line-height: 140%;
+    border-radius: 1000px;
+    color: rgba(255, 255, 255,1);
+
+
+}
+.faq .faq-button a:hover {
+    background-color:rgba(223, 236, 198,1) ;
+        color: rgba(0, 0, 0,1);
+}
+/* faq css ends here */
+/* choose css starts here */
+.choose {
+    padding-top: 80px;
+}
+.choose h4 {
+    color: rgba(72, 92, 17,1);
+     font-family: "Roboto Mono", monospace;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 140%;
+     text-align: center;
+}
+.choose h2 {
+    color: rgba(0, 0, 0,1);
+    font-family: "Crimson Text", serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    padding: 40px 0;
+}
+.choose .choose-p {
+    color: rgba(111, 111, 111,1) ;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    font-size:15px ;
+    font-weight: 400;
+    width: 720px;
+    margin: 0 auto;
+}
+.choose .chose-button{
+    text-align: center;
+    padding: 40px 0;
+  
+}
+.choose .chose-button a {
+     padding: 14px 22px;
+    display: inline-block;
+    background-color: rgba(72, 92, 17,1);
+    border: 1px solid transparent;
+    transition: .5s;
+    color: rgba(0, 0, 0,1);
+    font-family: "DM Sans", sans-serif;
+    font-size:14px ;
+    font-weight: 700;
+    line-height: 140%;
+    border-radius: 1000px;
+    color: rgba(255, 255, 255,1);
+}
+.choose .chose-button a:hover {
+    background-color:rgba(223, 236, 198,1) ;
+        color: rgba(0, 0, 0,1);
+}
+/* card one choose  */
+.choose .container .choose-card .card-upper {
+    border-bottom: 1px solid  rgba(233, 233, 233,1);
+    padding: 40px 0;
+    background-color: transparent;
+}
+.choose .container .choose-card .card-upper p {
+    color: rgba(0, 0, 0,1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 25.71px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.choose .container .choose-card .card-lower .card-one {
+    background-color: transparent;
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(233, 233, 233,1);
+  
+    transition: .5s;
+}
+.choose .container .choose-card .card-lower .card-one:nth-child(6){
+    border-bottom: 1px solid transparent;
+}
+.choose .container .choose-card .card-lower .card-one p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    font-weight:400 ;
+    color: rgba(0, 0, 0,1);
+    cursor: pointer;
+}
+.choose-card {
+  transition: .5s;
+  border-radius: 10px;
+  border: 1px solid transparent;
+    /* border: 1px solid rgba(0, 0, 0,1); */
+  margin-top: 80px;
+ 
+   
+}
+
+.choose-card:hover {
+  box-shadow: 0px  4px 4px 0 rgba(146, 146, 146,1);
+  /* background-color: rgba(233, 233, 233,1); */
+   border: 1px solid rgba(0, 0, 0,1);
+   /* border: 1px solid rgba(146, 146, 146,1); */
+   /* border-radius: 10px; */
+
+
+}
+.choose-card:hover .card-one {
+    border-bottom: 1px solid black;
+}
+
+/*  choose css ends here*/
+/* image css starts here */
+.images-right {
+    border-radius: 30px;
+    width: 590px;
+    height: 669.38px;
+    background-color: transparent;
+}
+.images-right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.images p {
+    font-family: "Crimson Text", serif;
+    color: rgba(0, 0, 0,1);
+    font-size: 40px;
+    font-weight: 400;
+    width: 540px;
+}
+.images h5 {
+     font-family: "DM Sans", sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     color: rgba(0, 0, 0,1);
+}
+.images h6 {
+         font-weight: 400;
+ font-family: "Roboto Mono", monospace;
+     font-size: 12px;
+     font-weight: 400;
+     color: rgba(72, 92, 17,1);
+}
+/* images css ends here */
+/* map css starts here */
+.map {
+    padding: 80px 0;
+}
+/* .map .map-right {
+    text-align: start;
+} */
+ .map .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+ }
+ 
+map h2 {
+     font-family: "Crimson Text", serif;
+     font-size:60px ;
+     font-weight: 400;
+     color: rgba(0, 0, 0,1);
+}
+/* .map .map-left {
+    text-align: end;
+} */
+.map .map-left a{
+        padding: 14px 22px;
+    display: inline-block;
+    background-color: rgba(72, 92, 17,1);
+    border: 1px solid transparent;
+    transition: .5s;
+    color: rgba(0, 0, 0,1);
+    font-family: "DM Sans", sans-serif;
+    font-size:14px ;
+    font-weight: 700;
+    line-height: 140%;
+    border-radius: 1000px;
+    color: rgba(255, 255, 255,1);
+}
+.map .map-left a:hover {
+     background-color:rgba(223, 236, 198,1) ;
+        color: rgba(0, 0, 0,1);
+}
+.map .box-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-top:60px ;
+   padding-bottom: 160px;
+  
+   background-color: rgbs(255, 255, 255,1);
+  
+   background-color: rgba(255, 255, 255,1);
+   transition: .5s;
+}
+.map .box-map:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0,0.25);
+    background-color: rgba(233, 233, 233,1);
+    transform: translateY(-10px);
+}
+.map .row  .box-map h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size:80px ;
+    font-weight:400 ;
+    color: rgba(146, 146, 146,1);
+    
+}
+.map .row  .box-map h5 {
+    color: rgba(0, 0, 0,1);
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+} 
+.map .row  .box-map p{
+        font-family: "DM Sans", sans-serif;
+        font-size:15px ;
+        font-weight: 400;
+         color: rgba(111, 111, 111,1);
+}
+.map .map-images {
+    padding-top: 120px;
+}
+.map .map-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+/* map css ends here */
+/* footer cssn starts here */
+footer h2 {
+    font-family: "Crimson Text", serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: rgba(0, 0, 0,1);
+    text-align: center;
+}
+footer p {
+        font-family: "DM Sans", sans-serif;
+        font-size:16px ;
+        font-weight:400 ;
+        color:rgba(111, 111, 111,1);
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        padding: 40px 0;
+}
+footer .footer-button {
+    text-align: center;
+}
+footer .footer-button a {
+    padding: 14px 260px;
+    background-color: rgba(72, 92, 17,1);
+    color: rgba(255, 255, 255,1);
+    border-radius: 1000px;
+}
+
+footer .footer-button a:hover{
+       background-color:rgba(223, 236, 198,1) ;
+        color: rgba(0, 0, 0,1);
+}
+
+/* footer .footer-below {
+    padding-top: 50px;
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+}
+footer .footer-below ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 27px;
+}
+footer .footer-below ul li a {
+    text-decoration: none !important;
+     font-family: "DM Sans", sans-serif;
+     font-size:14px ;
+     font-weight:700 ;
+     color: rgba(0, 0, 0,1);
+
+}
+footer .footer-image {
+    text-align: start;
+    padding-left: 35px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    /* position: absolute;
+    right: 100%;
+    bottom: 0; */
+ }
+/* 
+footer .footer-image h3 {
+    color: rgba(72, 92, 17,1);
+    font-family: "Roboto Mono", monospace;
+    font-size:12px ;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right: 16px;
+}
+footer .footer-image h4{
+     font-family: "Roboto Mono", monospace;
+     color: rgba(72, 92, 17,1);
+     font-size: 12px;
+     font-weight: 400;
+}
+footer .copyright {
+    text-align: end;
+      font-family: "Roboto Mono", monospace;
+     color: rgba(72, 92, 17,1);
+     font-size: 12px;
+     font-weight: 400;
+}
+footer .footer-main {
+    position: relative;
+} */ 
+ footer .footer-menu {
+    position: relative;
+ }
+
+footer .footer-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 27px;
+    padding-top: 80px;
+    position: absolute;
+    left: -25px;
+  
+ 
+} 
+footer .footer-menu ul li a {
+    text-decoration:  none !important;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0, 0, 0,1);
+    font-family: "DM Sans", sans-serif;
+    
+}
+footer .foooter-image {
+    position: relative;
+}
+footer .footer-image .footer-image-main {
+    position: absolute;
+    left: 12px;
+    /* bottom: -1380%; */
+    bottom: -6938px;
+    
+}
+footer .footer-image .footer-text  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+    position: absolute;
+    left: 77px;
+    bottom: -6938px;
+}
+footer .footer-image .footer-text h5 {
+         font-family: "Roboto Mono", monospace;
+         font-size: 12px;
+         font-weight:400 ;
+         color: rgba(72, 92, 17,1);
+}
+footer .footer-image .footer-text h3 {
+         font-family: "Roboto Mono", monospace;
+         font-size: 12px;
+         font-weight:400 ;
+         color: rgba(72, 92, 17,1);
+}
+footer .footer-image .footer-text-left p {
+      font-family: "Roboto Mono", monospace;
+         font-size: 12px;
+         font-weight:400 ;
+         color: rgba(72, 92, 17,1);
+}
+footer .footer-image .footer-text-left {
+    position: absolute;
+    right: -222px;
+    bottom: -6976px;
+}
