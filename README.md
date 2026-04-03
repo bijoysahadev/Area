@@ -32,6 +32,8 @@ Documentation: Clean, maintainable code structure and professional project docum
 
 Attention to Detail: Precise implementation of branding, typography, and spacing.
 
+
+
 🔧 Installation & Setup
 Clone the repository:
 
@@ -42,8 +44,3 @@ Navigate to the project folder:
 Bash
 cd Area
 Open index.html in your preferred browser.
-
-🤝 Contact
-Bijoy Saha Tonmoy GitHub | LinkedIn
-
-Full-Stack Developer in Training | MERN Stack Enthusiast
